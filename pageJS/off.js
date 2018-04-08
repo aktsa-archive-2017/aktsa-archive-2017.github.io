@@ -1,7 +1,7 @@
 function newLoad(){
 	console.log("Officer Page Loaded");
 	
-	var temp = location.search.split("?")[1];
+	/*var temp = location.search.split("?")[1];
 	if(!temp){
 		temp = 3;
 	}
@@ -9,7 +9,7 @@ function newLoad(){
 		if(document.getElementById("navLink" + temp)){
 			document.getElementById("navLink" + temp).className = "BigBtn CurrPage";
 		}
-	//}
+	//}*/
 }
 
 function newUnload(){
